@@ -1,0 +1,294 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "2023_2C_RSP_slim4",
+    "dateExported": "2023-12-04T10:32:14.760Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e755234e-cdca-4d5e-9ff9-423310550eea",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "alta usuarios",
+            "url": "http://slim4_parciales/usuario",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-04T10:08:18.591Z",
+            "modified": "2023-12-04T10:08:18.591Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"guille@melli.com\", \"clave\":\"123456\", \"nombre\":\"guille\", \"apellido\":\"schelotto\", \"id_perfil\":4}"
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"clave\":\"\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"\", \"clave\":\"\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"algo\", \"clave\":\"\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"\", \"clave\":\"123\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\":\"prop@prop.com\", \"clave\":\"1234\"}",
+                        "isDisabled": true
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "/C:/Users/Maxi/Pictures/el guille.jpeg"
+                    }
+                ],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "e43a9b52-a5d6-4f40-b419-f612bd86a436",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "listado usuarios",
+            "url": "http://slim4_parciales/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-04T10:08:18.592Z",
+            "modified": "2023-12-04T10:08:18.592Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjYyMDkyMDIsImV4cCI6MTYyNjIwOTUwMiwiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMVwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJkYXRhIjp7ImlkIjoyLCJub21icmUiOiJndWlsbGUiLCJhcGVsbGlkbyI6InNjaGVsb3R0byIsImNvcnJlbyI6Imd1aWxsZUBtZWxsaS5jb20iLCJjbGF2ZSI6IjEyMzQ1NiIsInBlcmZpbCI6ImVtcGxlYWRvIiwiZm90byI6IkM6XFx4YW1wcDdcXGh0ZG9jc1xcc2xpbTRfcGFyY2lhbGVzXFxzcmNcXHBvb1wvLi5cL0ZvdG9zXC9ndWlsbGU3QG1lbGxpLmNvbV8xMS5qcGcifSwiYXBwIjoiQVBJIFJFU1QgMjAyMSJ9.CmjZwx_QvwnViybDsnw3DN1_Vll8QgdwbiTSIQxd0RU"
+                }
+            ]
+        },
+        {
+            "_id": "3f0c9827-833c-4323-8de9-20d44af4e215",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "alta perfiles",
+            "url": "http://slim4_parciales/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-12-04T10:08:18.593Z",
+            "modified": "2023-12-04T10:08:18.593Z",
+            "headers": [],
+            "body": {
+                "form": [
+                    {
+                        "name": "perfil",
+                        "value": "{\"descripcion\":\"nuevo estado\", \"estado\":1}"
+                    }
+                ],
+                "files": [],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "cb916e43-7a57-48c6-a445-51e66e970527",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "listado perfiles",
+            "url": "http://slim4_parciales/perfil",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-04T10:08:18.594Z",
+            "modified": "2023-12-04T10:08:18.594Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjYyMTE4ODIsImV4cCI6MTYyNjIxMjE4MiwiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMVwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJkYXRhIjp7ImlkIjoiMSIsImNvcnJlbyI6InByb3BAcHJvcC5jb20iLCJjbGF2ZSI6IjEyMzQiLCJub21icmUiOiJQcm9waWV0YXJpbyIsImFwZWxsaWRvIjoiUHJvcGlldGFyaW8iLCJwZXJmaWwiOiJwcm9waWV0YXJpbyIsImZvdG8iOiJDOlxceGFtcHA3XFxodGRvY3NcXHNsaW00X3BhcmNpYWxlc1xcc3JjXFxwb29cLy4uXC9Gb3Rvc1wvZ3VpbGxlN0BtZWxsaS5jb21fMTEuanBnIn0sImFwcCI6IkFQSSBSRVNUIDIwMjEifQ.CwDx2UjYTs8Rbtf2xGonbhyXnU03V6Z8zGWs5bkqCOQ"
+                }
+            ]
+        },
+        {
+            "_id": "a1ebe1ba-4410-4cc1-b199-0b5f0e43d45a",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "login - crear jwt",
+            "url": "http://slim4_parciales/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-12-04T10:08:18.595Z",
+            "modified": "2023-12-04T10:09:45.146Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "{\"correo\":\"guille@melli.com\", \"clave\":\"123456\"}"
+                    },
+                    {
+                        "name": "user",
+                        "value": "{\"correo\":\"no@existe.com\", \"clave\":\"1234\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "user",
+                        "value": "{\"correo\":\"prop@prop.com\", \"clave\":\"123456\"}",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "user",
+                        "value": "{\"correo\":\"encar@gado.com\", \"clave\":\"123456\"}",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2e34c361-3134-4156-b4bf-bcb93aa081a0",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "login - verificar jwt",
+            "url": "http://slim4_parciales/login",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-12-04T10:08:18.596Z",
+            "modified": "2023-12-04T10:22:47.556Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjczOTU0MDEsImV4cCI6MTYyNzM5ODQwMSwiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMlwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJjb3JyZW8iOiJndWlsbGVAbWVsbGkuY29tIiwiY2xhdmUiOiIxMjM0NTYiLCJwZXJmaWwiOiI0IiwiYXBlbGxpZG8iOiJzY2hlbG90dG8iLCJhcHAiOiJBUEkgUkVTVCAyMDIxIn0.MXtB2YReoypD5jJksM9SV9Xvu4HGI0HGz8F2HkuP7qU"
+            },
+            "tests": []
+        },
+        {
+            "_id": "653bda2b-5a72-430a-aaca-cbaa4b5309f2",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "borrar perfil",
+            "url": "http://slim4_parciales/perfiles/",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-12-04T10:08:18.597Z",
+            "modified": "2023-12-04T10:24:14.053Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"id_perfil\":5}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjczOTU0NzcsImV4cCI6MTYyNzM5ODQ3NywiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMlwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJjb3JyZW8iOiJndWlsbGVAbWVsbGkuY29tIiwiY2xhdmUiOiIxMjM0NTYiLCJwZXJmaWwiOiI0IiwiYXBlbGxpZG8iOiJzY2hlbG90dG8iLCJhcHAiOiJBUEkgUkVTVCAyMDIxIn0.k3SBV7UCzNGRdwpFwp4sPMZz5Tdh5ShvlKhFER8doyY"
+            },
+            "tests": []
+        },
+        {
+            "_id": "05018877-9189-4217-9e3c-da3f78616f6e",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "modificar perfil",
+            "url": "http://slim4_parciales/perfiles/",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-12-04T10:08:18.598Z",
+            "modified": "2023-12-04T10:25:22.263Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjczOTU0NzcsImV4cCI6MTYyNzM5ODQ3NywiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMlwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJjb3JyZW8iOiJndWlsbGVAbWVsbGkuY29tIiwiY2xhdmUiOiIxMjM0NTYiLCJwZXJmaWwiOiI0IiwiYXBlbGxpZG8iOiJzY2hlbG90dG8iLCJhcHAiOiJBUEkgUkVTVCAyMDIxIn0.k3SBV7UCzNGRdwpFwp4sPMZz5Tdh5ShvlKhFER8doyY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_perfil\": 8,\n  \"perfil\": {\n              \"descripcion\": \"modificado\", \n              \"estado\": 1\n            }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5c3ee7c9-9d5e-4e65-9b6a-458a93da557d",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "borrar usuario",
+            "url": "http://slim4_parciales/usuarios/",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-12-04T10:08:18.599Z",
+            "modified": "2023-12-04T10:29:21.960Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"id_usuario\": 5}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjczOTU2MzIsImV4cCI6MTYyNzM5ODYzMiwiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMlwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJjb3JyZW8iOiJndWlsbGVAbWVsbGkuY29tIiwiY2xhdmUiOiIxMjM0NTYiLCJwZXJmaWwiOiI0IiwiYXBlbGxpZG8iOiJzY2hlbG90dG8iLCJhcHAiOiJBUEkgUkVTVCAyMDIxIn0.9H0owADaq751xF9RlQfZNzZQPmuYwvze38czwJXIqJU"
+            },
+            "tests": []
+        },
+        {
+            "_id": "13130f39-6a45-4c3a-8cdc-d185b4b6f559",
+            "colId": "4f32e86d-8e37-4459-ae02-39297921dee7",
+            "containerId": "",
+            "name": "modificar usuario",
+            "url": "http://slim4_parciales/usuarios",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-12-04T10:08:18.600Z",
+            "modified": "2023-12-04T10:30:50.335Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "{\"id\":5,\"correo\":\"guille@modif.com\", \"clave\":\"123456\", \"nombre\":\"guille modif\", \"apellido\":\"schelotto modif\", \"id_perfil\":2}"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "/C:/Users/Maxi/Pictures/avion.jpg"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjczOTU2MzIsImV4cCI6MTYyNzM5ODYzMiwiYXVkIjoie1wiaXBfdmlzaXRhbnRlXCI6XCIxMjcuMC4wLjFcIixcInVzZXJfYWdlbnRcIjpcIlBvc3RtYW5SdW50aW1lXFxcLzcuMjguMlwiLFwiaG9zdF9uYW1lXCI6XCJMQVBUT1AtRUZHVVZIME9cIn0iLCJjb3JyZW8iOiJndWlsbGVAbWVsbGkuY29tIiwiY2xhdmUiOiIxMjM0NTYiLCJwZXJmaWwiOiI0IiwiYXBlbGxpZG8iOiJzY2hlbG90dG8iLCJhcHAiOiJBUEkgUkVTVCAyMDIxIn0.9H0owADaq751xF9RlQfZNzZQPmuYwvze38czwJXIqJU"
+            },
+            "tests": []
+        }
+    ]
+}
